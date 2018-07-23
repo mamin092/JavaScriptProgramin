@@ -7,7 +7,17 @@ console.log("Total Eggs Price Is: ",toTatalEggsPrice,"Taka");
 
 // area of a circle calculator = pi * r squared
 
-var radius = 7;
+var radius =7;
 const pi = 3.14159;
-var areaOfCircle = pi *(radius * radius);
-console.log("Area of circle is ", areaOfCircle,"sq inch");
+var areaOfCircle = pi*(radius*radius);
+
+console.log(areaOfCircle);
+
+// usd to bdt Calculator
+
+var usd =83.5;
+var bdt = 5000;
+
+var usdTobdt = bdt/usd;
+console.log(usdTobdt);
+
